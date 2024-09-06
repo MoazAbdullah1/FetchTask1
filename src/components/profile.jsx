@@ -61,7 +61,6 @@ const ProfilePage = () => {
   />
 ) : (
   <img
-    // src="./pic.png"
     src={profile.profile_picture}
     alt="Default Profile"
     className="profile-picture"
